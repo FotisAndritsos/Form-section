@@ -40,7 +40,6 @@ h2{
     font-size:32px;
     color: white;
     font-weight: 600;
-    
 }
 form{
     display: flex;
@@ -94,4 +93,39 @@ input:focus::placeholder {
 .btn:hover{
     background-color: white;
     color:#FFBA08 ;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 580px){
+    .section{
+        flex-direction: column;
+    }
+    h2{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .btn{
+        margin-bottom:30px;
+    }
+    body{
+        height: 100%;
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 870px){
+    
+    form{
+        width: 90%;
+    }
+    h2{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1050px){
+    form{
+        width: 90%;
+    }
 }
