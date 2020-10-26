@@ -24,6 +24,7 @@ ul{
     flex: 1;
     background: url("images/mediensturmer.jpg")center no-repeat;
     background-size: cover;
+    height: auto;
 }
 .form-part{
     flex: 1;
