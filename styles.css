@@ -6,6 +6,8 @@
 body{
     font-size: 10px;
     font-family: 'Poppins' , sans-serif;
+    width: 100%;
+    height: 100vh;
 }
 
 a{
@@ -22,9 +24,9 @@ ul{
 }
 .img-part{
     flex: 1;
-    background: url("images/mediensturmer.jpg")center no-repeat;
+    background: linear-gradient(0deg, rgba(120, 120, 120,0.5), rgba(120, 120, 120,0.5)),url("images/mediensturmer.jpg")center no-repeat;
     background-size: cover;
-    height: auto;
+    height: 100%;
 }
 .form-part{
     flex: 1;
